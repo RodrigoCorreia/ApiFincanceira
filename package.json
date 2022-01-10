@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",
-    "build": "tsc",
+    "compile": "tsc",
+	"build": "eslint . --ext .ts && tsc",
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
