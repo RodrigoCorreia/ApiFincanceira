@@ -1,0 +1,26 @@
+{
+  "name": "apifincanceira",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoCorreia/ApiFincanceira.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoCorreia/ApiFincanceira/issues"
+  },
+  "homepage": "https://github.com/RodrigoCorreia/ApiFincanceira#readme",
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.4"
+  }
+}
